@@ -7,3 +7,4 @@ PROJECT EULER
 +Project Euler #3: Largest prime factor (Last test case timeout in C++. All passed in Python3)
 +Project Euler #5: Smallest multiple (All test cases passed)
 +Project Euler #6: Sum square difference (All test cases passed)
++Project Euler #7: 10001st prime (All test cases passed)
