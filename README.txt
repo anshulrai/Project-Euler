@@ -8,3 +8,4 @@ PROJECT EULER
 +Project Euler #5: Smallest multiple (All test cases passed)
 +Project Euler #6: Sum square difference (All test cases passed)
 +Project Euler #7: 10001st prime (All test cases passed)
++Project Euler #8: Largest product in a series(All test cases passed)
