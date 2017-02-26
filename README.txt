@@ -11,3 +11,4 @@ PROJECT EULER
 [+] Project Euler #8: Largest product in a series (All test cases passed)
 [+] Project Euler #9: Pythogorean Triplets (All test cases passed)
 [+] Project Euler #10: Summation of primes (All test cases passed)
+[+] Project Euler #13: Large sum (All test cases passed)
