@@ -13,3 +13,4 @@ PROJECT EULER
 [+] Project Euler #10: Summation of primes (All test cases passed)
 [+] Project Euler #13: Large sum (All test cases passed)
 [+] Project Euler #42: Coded triangle numbers (All test cases passed)
+[+] Project Euler #46: Goldbach's other conjecture (All test cases passed)
