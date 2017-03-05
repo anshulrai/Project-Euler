@@ -15,3 +15,4 @@ PROJECT EULER
 [+] Project Euler #18: Maximum path sum I(Ojne case passed)
 [+] Project Euler #42: Coded triangle numbers (All test cases passed)
 [+] Project Euler #46: Goldbach's other conjecture (All test cases passed)
+[+] Project Euler #81: Path sum: two ways (All test cases passed)
