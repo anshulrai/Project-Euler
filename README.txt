@@ -16,3 +16,4 @@ PROJECT EULER
 [+] Project Euler #42: Coded triangle numbers (All test cases passed)
 [+] Project Euler #46: Goldbach's other conjecture (All test cases passed)
 [+] Project Euler #81: Path sum: two ways (All test cases passed)
+[+] Project Euler #82: Path sum: three ways (All test cases passed)
