@@ -7,26 +7,34 @@ using namespace std;
 
 
 int main() {
-    int t;
+    int t, n, val;
     cin >> t;
     while(t--){
-        int n, x, max, var, prev = 1, sum = 0;
         cin >> n;
-        for (int i = 1; i<= n; i++){
-            max = 0;
-            for (int j = 1; j<= i; j++){
-                cin >> x;
-                //cout << x <<" "<< abs(j-prev)<< " ";
-                if(x>max && abs(j-prev) <= 1){
-                    max = x;
-                    var = j;
-                }
+        int sum[n*(n+1)/2], maxv = 0;
+        vector<int> arr, level;
+        for(int i=1;i<=n;i++){
+            for(int j = 0; j<i; j++){
+                cin >> val;
+                arr.push_back(val);
+                level.push_back(i);
             }
-            prev = var;
-            //cout <<"\n";
-            sum+=max;
         }
-        cout << sum << "\n";
+        for(int i = 0; i<arr.size();i++)
+            sum[i] = 0;
+        
+        sum[0] = arr[0];
+        
+        for(int i = 0; i<arr.size()-n;i++){
+            sum[i+level[i]] = max(sum[i+level[i]], sum[i]+arr[i+level[i]]);
+            sum[i+level[i]+1] = max(sum[i+level[i]+1], sum[i]+arr[i+level[i]+1]);
+        }
+        maxv = sum[0];
+        for(int i = 0; i<arr.size();i++){
+            if(maxv < sum[i])
+                maxv = sum[i];
+        }
+        cout << maxv << "\n";
     }
     return 0;
 }
