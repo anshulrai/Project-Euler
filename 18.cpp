@@ -30,7 +30,7 @@ int main() {
             sum[i+level[i]+1] = max(sum[i+level[i]+1], sum[i]+arr[i+level[i]+1]);
         }
         maxv = sum[0];
-        for(int i = 0; i<arr.size();i++){
+        for(int i = n*(n-1)/2 -1; i<arr.size();i++){
             if(maxv < sum[i])
                 maxv = sum[i];
         }
