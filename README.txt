@@ -15,6 +15,7 @@ PROJECT EULER
 [+] Project Euler #18: Maximum path sum I(All test cases passed)
 [+] Project Euler #42: Coded triangle numbers (All test cases passed)
 [+] Project Euler #46: Goldbach's other conjecture (All test cases passed)
+[+] Project Euler #67: Maximum path sum II(All test cases passed)
 [X] Project Euler #78: Coin partitions (Ongoing)
 [+] Project Euler #81: Path sum: two ways (All test cases passed)
 [+] Project Euler #82: Path sum: three ways (All test cases passed)
