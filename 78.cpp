@@ -13,10 +13,10 @@ int main() {
     vector<long long> p;
     long long val = 0;
     p.push_back(0);
-    for(long long l = 1; l<=60000; l++){
+    for(long long l = 1; l<=60000; l++){// think of making a nxn table for lookup
         val = 0;
         for(long long i = 1; i<=l; i++){
-            val += p[i-1]+p[l-i-1];
+            val += p[i-1]+p[l-i-1];//completely wrong
         }
         p.push_back(val);
     }
