@@ -17,6 +17,7 @@ PROJECT EULER
 [+] Project Euler #042: Coded triangle numbers (All test cases passed)
 [+] Project Euler #046: Goldbach's other conjecture (All test cases passed)
 [+] Project Euler #067: Maximum path sum II(All test cases passed)
+[x] Project Euler #077: Prime summations (Ongoing)
 [x] Project Euler #078: Coin partitions (Ongoing)
 [+] Project Euler #081: Path sum: two ways (All test cases passed)
 [+] Project Euler #082: Path sum: three ways (All test cases passed)
