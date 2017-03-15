@@ -1,17 +1,18 @@
+#pragma GCC diagnostic ignored "-Wunused-result"
 #include <cmath>
 #include <cstdio>
 #include <vector>
 #include <iostream>
 #include <algorithm>
-using namespace std;
-
 
 int main() {
-    int t;
-    cin >> t;
-    long long sum[1001] = {0};
-    vector<int> primes;
-    vector<bool> flag;
+    int t,n;
+    long long table[1001] = {0};
+    std::vector<int> primes;
+    std::vector<bool> flag;
+    
+    scanf("%d", &t);
+    
     for(int i = 2; i<=1000; i++){
         primes.push_back(i);
         flag.push_back(true);
@@ -24,23 +25,24 @@ int main() {
         }        
     }
     primes.clear();
-    sum[0] = 1;
+    
+    table[0] = 1;
+    table[1] = 0;
+    
     for(int i = 0; i<flag.size(); i++){
         if(flag[i])
             primes.push_back(i+2);
     }
-
-    for(int i = 2; i<=1000; i++){
-        int visited[i] = {0};
-        for (int j = 0; primes[j]<=i; j++){
-            if(!visited[primes[j]-1]){
-                sum[i] += sum[i-primes[j]];
-                visited[i-primes[j]-1] = 1;
-            }
+    
+    for(int i = 0; i<primes.size(); i++){
+        for(int j = primes[i];j<=1000; j++){
+            table[j] += table[j - primes[i]];
         }
     }
-    for(int i = 0; i<=1000; i++){
-        cout << sum[i] <<"\n";
+    
+    while(t--){
+        scanf("%d", &n);
+        printf("%lld\n", table[n]);
     }
     return 0;
 }
