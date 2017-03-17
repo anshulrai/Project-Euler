@@ -5,6 +5,7 @@ PROJECT EULER
 [+] Project Euler #001: Multiples of 3 and 5 (All test cases passed)
 [+] Project Euler #002: Even Fibonacci numbers (All test cases passed)
 [+] Project Euler #003: Largest prime factor (Last test case timeout in C++. All passed in Python3)
+[+] Project Euler #004: Largest palindrome product (All test cases passed)
 [+] Project Euler #005: Smallest multiple (All test cases passed)
 [+] Project Euler #006: Sum square difference (All test cases passed)
 [+] Project Euler #007: 10001st prime (All test cases passed)
