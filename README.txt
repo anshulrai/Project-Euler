@@ -16,6 +16,7 @@ PROJECT EULER
 [+] Project Euler #016: Power digit sum (All test cases passed)
 [+] Project Euler #018: Maximum path sum I (All test cases passed)
 [+] Project Euler #031: Coin sums (All test cases passed)
+[+] Project Euler #037: Truncatable primes (Ongoing)
 [+] Project Euler #042: Coded triangle numbers (All test cases passed)
 [+] Project Euler #046: Goldbach's other conjecture (All test cases passed)
 [+] Project Euler #067: Maximum path sum II (All test cases passed)
