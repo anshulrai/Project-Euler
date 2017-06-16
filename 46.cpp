@@ -11,13 +11,13 @@ int main() {
     cin >> t;
     vector<int> primes;
     vector<bool> flag;
-    for(int i = 2; i<=500000; i++){
+    for(int i = 2; i<=5e5; i++){
         primes.push_back(i);
         flag.push_back(true);
     }
-    for(int i=2; i<=sqrt(500000); i++){
+    for(int i=2; i<=sqrt(5e5); i++){
         if(flag[i-2]){
-            for(int j = i*i; j<=500000; j+=i){
+            for(int j = i*i; j<=5e5; j+=i){
                 flag[j-2] = false;
             }   
         }        
